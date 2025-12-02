@@ -1,12 +1,12 @@
 const liste_site = [
-    { "nom": "Deezer", "url": "./images/Deezer.png", "url_image": "https://i.ibb.co/fQHhJn0/Deezer.png" },
-    { "nom": "Netflix", "url": "./images/Netflix.png", "url_image": "https://i.ibb.co/TPd27kq/Netflix.png" }, // Comma added here
-    { "nom": "Apple", "url": "./images/Apple.png", "url_image": "https://i.ibb.co/nb9RqWG/Apple.png" },
-    { "nom": "UHA", "url": "./images/UHA.png", "url_image": "https://i.ibb.co/bFQMLHZ/UHA.png" },
-    { "nom": "CodePen", "url": "./images/Code-Pen-io.png", "url_image": "https://i.ibb.co/Y7ZC6LV/Code-Pen-io.png" },
-    { "nom": "ImgBB", "url": "./images/ibb.png", "url_image": "https://i.ibb.co/FnL82vF/Ibb.png" },
-    { "nom": "Gmap", "url": "./images/Gmap.png", "url_image": "https://i.ibb.co/nrqpbMD/Gmap.png" },
-    { "nom": "Wiki", "url": "./images/Wiki.png", "url_image": "https://i.ibb.co/Dk4HhMC/Wiki.png" }
+    { "nom": "Deezer", "url": "./images/Deezer.png", "url_image": "./images/Deezer.png" },
+    { "nom": "Netflix", "url": "./images/Netflix.png", "url_image": "./images/Netflix.png" }, // Comma added here
+    { "nom": "Apple", "url": "./images/Apple.png", "url_image": "./images/Apple.png" },
+    { "nom": "UHA", "url": "./images/UHA.png", "url_image": "./images/UHA.png" },
+    { "nom": "CodePen", "url": "./images/Code-Pen-io.png", "url_image": "./images/Code-Pen-io.png" },
+    { "nom": "ImgBB", "url": "./images/ibb.png", "url_image": "./images/ibb.png" },
+    { "nom": "Gmap", "url": "./images/Gmap.png", "url_image": "./images/Gmap.png" },
+    { "nom": "Wiki", "url": "./images/Wiki.png", "url_image": "./images/Wiki.png" }
 ];
 
 const flexConteneur = document.getElementById("conteneur_flex");
@@ -20,3 +20,4 @@ liste_site.forEach((site) => {
     </a>`;
     flexConteneur.appendChild(flexItem);
 });
+
