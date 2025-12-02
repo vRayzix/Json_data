@@ -1,0 +1,178 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+main {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 15px;
+}
+
+#conteneur_flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	width : 1000px;
+
+}
+#lien_github {
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	align-content: center;
+	background-color: gray;
+	color: white;
+}
+
+#info_github {
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	align-content: center;
+	background-color: gray;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+#github {
+	width: 90%;
+}
+#user_github {
+	width: 90px;
+}
+#repo_github {
+	width: 70px;
+}
+#path_github, #token_github {
+	width: 160px;
+}
+#token_github {
+	width: 320px;
+}
+
+.flex_item {
+	margin: 0px;
+	padding: 5px;
+	width: 100%;
+	align-content: center;
+	background-color: #eee;
+}
+
+.flex_item:last-child {
+	padding-bottom: 15px;
+}
+#bp_up1 {
+	visibility: hidden;
+}
+
+#conteneur_flex > :nth-last-child(2) > form .div_bp :last-child {
+	visibility: hidden;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.bp {
+	padding: 0px 10px 4px 10px;
+	border: solid 1px black;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px gray;
+	background-color: white;
+}
+
+.div_url, .div_url_image, .div_bp , .div_nom, #div_github {
+	margin: auto 0px;
+}
+.input_url {
+	width: 400px;
+}
+
+.input_url_image {
+	width: 200px;
+}
+
+.input_nom {
+	width: 80px;
+}
+
+.select_input {
+	width: 20px;
+	margin: auto 0px;
+
+}
+
+.select_input input[type="file"] {
+    display: none;
+}
+
+/* Style pour le label personnalisé */
+.select_input label {
+    display: inline-block;
+	text-align: center;
+    padding: 0px 6px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Style au survol */
+.select_input label:hover {
+    background-color: black;
+}
+
+#bp_plus {
+	padding: 2px 205px 2px 205px;
+	font-size: large;
+
+}
+#bp_refresh {
+	padding: 5px 205px 5px 205px;
+}
+#note_info {
+	margin: 20px auto;
+	width: 90vw;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #fff;
+	color: red;
+	font-size: large;
+	text-align: justify;
+}
+
+#note_info li {
+	list-style-type: none;
+	text-indent: 2em;
+}
+#note_info a {
+	color: blue;
+
+
+}
+#gras {
+	font-weight : bold;
+}
+
+#pdf {
+	width: 100%;
+	height: 500px;
+	margin: 20px 0px 0px 0px;
+}
